@@ -1,4 +1,4 @@
-
+/*
 /* Style the video: 100% width and height to cover the entire window */
 #my-video {
     position: fixed;
@@ -59,7 +59,7 @@
     pointer-events: none;
 }
 
-	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;  width:400px;}
+
 
 #vidtop-content
 {
@@ -78,7 +78,7 @@
 }
 .vid-info a
 {
-    display: block; margin: 1rem auto; transition: .6s background; text-align: center; text-decoration: none; color: #fff; border-bottom: none; background: rgba(0,0,0,.5);
+    display: block; margin: 1rem auto; transition: .6s ; text-align: center; text-decoration: none; color: #fff; border-bottom: none; background: rgba(0,0,0,.5);
 }
 @media (min-aspect-ratio: 16/9)
 {
@@ -114,7 +114,7 @@
         display: none;
     }
 
-}
+} */
 
 
 .vid-info{font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
@@ -138,5 +138,5 @@
        margin: 2rem;
        float: right;
        font-size: 1.2rem;
-       z-index: 99;
+
     }
