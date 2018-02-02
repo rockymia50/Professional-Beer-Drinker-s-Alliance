@@ -1,14 +1,4 @@
-
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    font-family: Arial;
-    font-size: 17px;
-}
-
+/* Style the video: 100% width and height to cover the entire window */
 #myVideo {
     position: fixed;
     right: 0;
@@ -17,6 +7,7 @@ body {
     min-height: 100%;
 }
 
+/* Add some content at the bottom of the video/page */
 .content {
     position: fixed;
     bottom: 0;
@@ -26,6 +17,7 @@ body {
     padding: 20px;
 }
 
+/* Style the button used to pause/play the video */
 #myBtn {
     width: 200px;
     font-size: 18px;
