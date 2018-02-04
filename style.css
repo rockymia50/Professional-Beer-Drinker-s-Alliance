@@ -1,91 +1,64 @@
-*
-{
-    box-sizing: border-box;
-}
-.video-background
-{
-    position: fixed;
-    z-index: -99;
-    top: 0; right: 0; bottom: 0; left: 0;
 
-    background: #000;
-}
-.video-foreground,
-.video-background iframe
-{
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    width: 100%;
-    height: 100%;
-
-    pointer-events: none;
-}
-#vidtop-content
-{
-    top: 0;
-
-    color: #fff;
-}
-.vid-info
-{font-family: Avenir, Helvetica, sans-serif;
-
-    position: absolute; top: 0; right: 0; width: 33%; padding: 1rem; color: #fff; background: rgba(0,0,0,.3);
-}
-.vid-info h1
-{
-    font-size: 2rem; font-weight: 700; line-height: 1.2; margin-top: 0;
-}
-.vid-info a
-{
-    display: block; margin: 1rem auto; transition: .6s background; text-align: center; text-decoration: none; color: #fff; border-bottom: none; background: rgba(0,0,0,.5);
-}
-@media (min-aspect-ratio: 16/9)
-{
-    .video-foreground
-    /* {top: -100%; */
-
-        height: 100%;
-    }
-}
-@media (max-aspect-ratio: 16/9)
-{
-    .video-foreground
-    /* {left: -100%; */
-
-        width: 100%;
-    }
-}
-@media all and (max-width: 600px)
-{
-    .vid-info
-    {
-        width: 50%; padding: .5rem;
-    }
-    .vid-info h1
-    {
-        margin-bottom: .2rem;
-    }
-}
-@media all and (max-width: 500px)
-{
-    .vid-info .acronym
-    {
-        display: none;
-    }
+body{
+  background-color: red;
 }
 
 
 
-#Beer{
-    font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
-    font-weight: 100;
-    background: rgba(0,0,0,0.3);
-    color: white;
-    padding: 2rem;
-    width: 33%;
-    margin: 2rem;
-    float: right;
-    font-size: 1.2rem;
+.jumbotron{
+  padding-top: 0%;
+  padding-bottom: 0%;
+  width: 100px;
+  
+}
+
+ .videoContainer {
+  position: fixed;
+  min-height: 100%;
+  min-width: 100%;
+  width: auto;
+  height: auto;
+  top: 0;
+  left: 10%;
+  bottom: 0;
+  right: 0;
+  z-index: -100;
+}
+
+
+
+.container{
+  position: absolute;
+  top: 60%;
+  width: 30%;
+  font-size: 2px;
+  letter-spacing: 3px;
+  color: rgb(53, 238, 115);
+  font-family: Oswald, sans-serif;
+  text-align: center;
+  padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 26px;
+    margin-left: 113px;
+    /* margin-bottom: 0px; */
+    /* padding-bottom: 0px; */
+    /* height: auto; */
+    margin-top: -150px;
+
+}
+
+
+  
+  
+}
+
+button {
+  background-color: #4CAF50;
+  color: rgb(245, 149, 4);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
 }
